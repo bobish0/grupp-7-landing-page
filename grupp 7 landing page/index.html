@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Landing Page Group 7</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+    <!-- Bootstrap 3 (latest compiled and minified CSS) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--Jquery-->
+    	<!-- from google-->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	    <!-- from Microsoft
+	    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>-->
+
+<!--Font Awesome-->    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Animate CSS by Daniel Eden-->    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	    <!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+
+
+    <!-- main style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+
+<style type="text/css">
+	
+
+</style>
+
+
+<body>
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+ <div class="container-fluid">
+
+					<button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						
+					<!-- here are the icon bars that appear inside the navigation button,
+					three are standard for menu button-->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+
+<div class="collapse navbar-collapse" id ="myNavbar">
+
+    <div class="navbar-header" id = "my-navbar">
+
+      <a class="navbar-brand" href="#"> <img id ="logoimage" width = "80px"  height = "50px" src = "img/intellogo.png" style = "margin-top:-15px;"></a>
+    </div>
+
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a  class="button1" href="#section1">Home</a></li>
+      <li><a class="button2" href="#section2">About</a></li>
+      <li><a class="button3" href="#section3">Products</a></li>
+       <li><a  class="button4" href="#section4">Contact</a></li>
+
+    </ul>
+
+
+
+    <ul class="nav navbar-nav navbar-center">
+			<li>	<a href="#" class=" fa fa-facebook"></a></li>
+			<li>	<a href="#" class=" fa fa-twitter"></a></li>
+			<li>	<a href="#" class=" fa fa-google"></a></li>
+			<li>	<a href="#" class=" fa fa-linkedin"></a></li>
+			<li>	<a href="#" class=" fa fa-youtube"></a></li>
+
+    </ul>
+
+
+
+  </div> 
+   </div> <!-- end of collpase div --> 
+   </div> <!-- end of  container-fluid --> 
+</nav>
+
+
+
+	<section id="section1" style="
+ background-image: url('img/intel2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+	">
+	<div class="container-fluid section1par">
+	
+
+		<div class="col-sm-4">
+			<p>Introducing the New X-series Graphics Cards from Intel. For a Swifter Tomorrow. </p></div>
+		
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">><p>Over 10 billion transistors. 512mbit - Bandwidth. M2-memory. </p></div>
+
+	</div>
+
+	</section>
+
+	<section id="section2" style="
+
+ background-image: url('img/intel4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+	">
+	
+	</section>
+
+	<section id="section3" style="
+
+ background-image: url('img/intel1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+	">
+	
+	</section>
+
+
+
+	<section id="section4" style="
+
+ background-image: url('img/intel3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+	"> 
+
+
+
+		<!--Footer is part of the last section --> 
+		<footer>
+
+			
+		</footer>
+
+	</section>
+
+
+
+
+<section id = "section5" style="
+
+ background-image: url('img/car1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+">
+	
+
+</section>
+
+
+
+</body>
+
+<script>
+	
+	$( document ).ready(function() {
+    console.log( "ready!" );
+
+$(".button1").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section1").offset().top},
+        'slow');
+});
+
+
+$(".button2").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section2").offset().top},
+        'slow');
+});
+
+$(".button3").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section3").offset().top},
+        'slow');
+});
+
+$(".button4").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section4").offset().top},
+        'slow');
+});
+
+
+
+
+// code goes in here. 
+
+});
+	
+</script>
+
+</html>
