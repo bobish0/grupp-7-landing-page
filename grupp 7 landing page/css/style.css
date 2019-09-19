@@ -7,17 +7,27 @@ body{
 
 }
 
+.apiBox{
+	background-color: black;
+	opacity: 0.9;
+	box-shadow: 5px 5px 5px black; 
+	width: 60vw;
+	border-radius: 5px;
+	margin:auto;
+}
 
 section{
 	height: 100vh !important;
-width: 100vw !important;
+	width: 100vw !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
 }
 
 
 
 nav {
 
-	opacity: 0.9;
+	
 }
 
 p{

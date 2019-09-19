@@ -1,16 +1,31 @@
+    $( document ).ready(function() {
+    console.log( "ready!" );
 
-    $('html, body').animate({
-        scrollTop: $("#section1").offset().top
-    }, 1000);
+$(".button1").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section1").offset().top},
+        'slow');
+});
 
-    $('html, body').animate({
-        scrollTop: $("#section2").offset().top
-    }, 1000);
 
-    $('html, body').animate({
-        scrollTop: $("#section3").offset().top
-    }, 1000);
+$(".button2").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section2").offset().top},
+        'slow');
+});
 
-    $('html, body').animate({
-        scrollTop: $("#section4").offset().top
-    }, 1000);
+$(".button3").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section3").offset().top},
+        'slow');
+});
+
+$(".button4").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#section4").offset().top},
+        'slow');
+});
+
+
+});
+    
