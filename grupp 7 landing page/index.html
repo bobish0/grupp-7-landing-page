@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    
+<head>
     <meta charset="utf-8" />
     <title>Landing Page Group 7</title>
 
@@ -10,197 +11,96 @@
     <!-- Bootstrap 3 (latest compiled and minified CSS) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!--Font Awesome-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--Jquery-->
-    	<!-- from google-->
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Animate CSS by Daniel Eden -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-	    <!-- from Microsoft
-	    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>-->
-
-<!--Font Awesome-->    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!--Animate CSS by Daniel Eden-->    
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
-	    <!--fonts-->
-<link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
 
 
     <!-- main style -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-
-
-<style type="text/css">
-	
-
-</style>
-
+    
+</head>
 
 <body>
-
-
 <!-- Detta är Bootstrap 3 - klasser för navigationsmenyer. Bootstrap importeras i <head> ovanför. Bootstrap är ett mycket bra Front-End Bibliotek som gör att det går mycket snabbare att göra bra och fina hemsidor. Läs mer på Bootstrap 3 på FreeCodeCamp -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
 
+                <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <!-- here are the icon bars that appear inside the navigation button,
+                three are standard for menu button-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
- <div class="container-fluid">
+                <div class="collapse navbar-collapse" id ="myNavbar">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"> <img id ="logoimage" width = "80px"  height = "55px" src = "img/intellogo.png" style = "margin-top:-15px;"></a>
+                    </div>
 
-					<button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						
-					<!-- here are the icon bars that appear inside the navigation button,
-					three are standard for menu button-->
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a  class="button1" href="#section1">Home</a></li>
+                      <li><a class="button2" href="#section2">About</a></li>
+                      <li><a class="button3" href="#section3">Products</a></li>
+                       <li><a  class="button4" href="#section4">Contact</a></li>
+                    </ul>
 
-
-<div class="collapse navbar-collapse" id ="myNavbar">
-
-    <div class="navbar-header">
-
-      <a class="navbar-brand" href="#"> <img id ="logoimage" width = "80px"  height = "55px" src = "img/intellogo.png" style = "margin-top:-15px;"></a>
-    </div>
-
-
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a  class="button1" href="#section1">Home</a></li>
-      <li><a class="button2" href="#section2">About</a></li>
-      <li><a class="button3" href="#section3">Products</a></li>
-       <li><a  class="button4" href="#section4">Contact</a></li>
-
-    </ul>
-
-
-<!-- Sociala Medier Ikoner, importeras från Font Awesome (som vi importerade under "<head>") -->
-    <ul class="nav navbar-nav navbar-center">
-			<li>	<a href="#" class=" fa fa-facebook"></a></li>
-			<li>	<a href="#" class=" fa fa-twitter"></a></li>
-			<li>	<a href="#" class=" fa fa-google"></a></li>
-			<li>	<a href="#" class=" fa fa-linkedin"></a></li>
-			<li>	<a href="#" class=" fa fa-youtube"></a></li>
-
-    </ul>
-
-
-
-  </div>  <!-- end of  collapse --> 
-   </div> <!-- end of  container-fluid --> 
- 
-</nav>
-
-
-
-	<section id="section1" style="
- background-image: url('img/intel2.png');
-	">
-	<div class="container-fluid section1par">
-	
-
-		<div class="col-sm-4">
-			<p>Introducing the New X-series Graphics Cards from Intel. For a Swifter Tomorrow. </p></div>
-		
-		<div class="col-sm-4"></div>
-		<div class="col-sm-4">><p>Over 10 billion transistors. 512mbit - Bandwidth. M2-memory. </p></div>
-
-	</div>
-
+                    <!-- Sociala Medier Ikoner, importeras från Font Awesome (som vi importerade under "<head>") -->
+                    <ul class="nav navbar-nav navbar-center">
+                            <li>	<a href="#" class=" fa fa-facebook"></a></li>
+                            <li>	<a href="#" class=" fa fa-twitter"></a></li>
+                            <li>	<a href="#" class=" fa fa-google"></a></li>
+                            <li>	<a href="#" class=" fa fa-linkedin"></a></li>
+                            <li>	<a href="#" class=" fa fa-youtube"></a></li>
+                    </ul>
+                </div>  <!-- end of  collapse --> 
+            </div> <!-- end of  container-fluid --> 
+        </nav>
+    </header>
+    
+	<section id="section1" style="background-image: url('img/intel2.png');">
+        <div class="container-fluid section1par">
+            <div class="col-sm-4">
+                <p>Introducing the New X-series Graphics Cards from Intel. For a Swifter Tomorrow. </p></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">><p>Over 10 billion transistors. 512mbit - Bandwidth. M2-memory. </p></div>
+        </div>
 	</section>
-
-	<section id="section2" style="background-image: url('img/intel4.jpg');">
 	
+    <section id="section2" style="background-image: url('img/intel4.jpg');">
 	</section>
-
-	<section id="section3" style=" background-image: url('img/intel1.jpg');">
 	
+    <section id="section3" style=" background-image: url('img/intel1.jpg');">
 	</section>
-
-
-
-	<section id="section4" style="background-image: url('img/intel3.jpg');"> 
+	
+    <section id="section4" style="background-image: url('img/intel3.jpg');"> 
 			<br><br> <br>
 			<h1 style="color:white; text-shadow: 5px 5px 5px black;" >Importerad information Från JSON Objekt lagrade hos CoinMarketCap.com</h1>
 			<div  id="apiTest" class="apiBox">
-				
-			</div>
-			
-
+            </div>
 	</section>
 
-
-
-
-<section id = "section5" style="background-image: url('img/car1.jpg');">
-
-	<iframe width ="100%" height ="100%" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/sdLcjCkkhGw?autoplay=1&amp;loop=1&amp;playlist=e-Lp7kQWaNg&amp;controls=0&amp;showinfo=0&amp;rel=0"></iframe>
-
-</section>
-
-
-
-</body>
-
-<script type="text/javascript">
-  
-/* Detta nedanför är JQuery, ett javascript framework, läs på i FreeCodeCamp.com. 
-Det liknar Vanilla Javscript men är mkt enklare att använda. */
-
-      $( document ).ready(function() { // document.ready ser till att sidan laddas färdigt innan javascript-koden körs.  
-    console.log( "ready!" );
-
-$(".button1").click(function() { // om elementet med klassen ".button1" klickas...
-    $('html,body').animate({		// ...ska en animation skapas som involverar hela html och body.
-        scrollTop: $("#section1").offset().top}, // animationen är "scrollTop", bestäm sen id-tagg som vi ska scrolla till, i detta fall "#section1". 
-        'slow'); // hastigheten det tar för scrollen. 
-});
-
-
-$(".button2").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#section2").offset().top},
-        'slow');
-});
-
-$(".button3").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#section3").offset().top},
-        'slow');
-});
-
-$(".button4").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#section4").offset().top},
-        'slow');
-});
-
-
-let apiLankCrypto = "https://api.coinmarketcap.com/v1/ticker/?limit=0";  // öppna länken på en browser och studera JSON-Objektet
-
-      let hello =  $.getJSON(apiLankCrypto , function(data) {  // BoilerPlate kod. En variabel hello där vi tilldelar en funktion som kräver två parametrar, 1: vårt JSON-objekt (som vi satt in på variabeln "apiLankCrypto") och 2. funktionen "function(data)"" som vi kommer använda för att gräva ur och visa information ifrån vår JSON-fil. 
-
-       		for(let i = 0; i < 2; i++){   // en for-loop, studera den online om du ej vet hur en sådan fungerar. kommer välja dem två mest värdefulla valutorna, om i < 50 så kommer koden nedanför att köras 50 gånger istället för tre gånger och således välja dem 50 mest värdefulla valutorna. (det är genom värde som valutorna är listade i just DETTA JSON-objekt, det behöver inte alltså vara så i andra json objekt.)
-
-			let plats = i + 1;  // så att valutorna listas som "1,2,3" och inte "0,1,2" i vår html kod. 
-
-       			// väljer html-element där id-taggen "#apiTest"-finns. "append" gör så att det innanför dess paranteser sätts upp i vår html kod. 
-       			$('#apiTest').append(" <br><p><b>" +plats+ ".&nbsp;&nbsp;&nbsp;&nbsp;"+
-       			 data[i].name+"</b>&nbsp;&nbsp;" + data[i].price_usd+ "$&nbsp;&nbsp; 1h:" + 
-       				data[i].percent_change_1h+" % &nbsp;&nbsp; 24h:" + data[i].percent_change_24h+"  % &nbsp;&nbsp; 7d:" 
-       				+data[i].percent_change_7d+" % &nbsp;&nbsp; <b>Marketcap</b>:&nbsp;"+ data[i].market_cap_usd+"$&nbsp;&nbsp; </p> <br>" );  
-				//varje "data[i].price_usd" kallar dollarkursen för den aktuella valutan i varje iteration(varje gång koden körs). data[1].price_usd för den populäraste valutan, data[2].price_usd för den näst populäraste valutan, osv. allt i data[1] motsvarar allt för bitcoin, och där inne finns MASSA information lagrad i objekt-form om bitcoin. Ovanför tar vi exempelvis fram market capitalisation- värde(data[i].market_cap_usd), värdeförändring i procent(data[i].percent_change_24h), namnet på valutan(data[i].name), etc. 
-   
-
-			}
-		});
-
-
-});  /* End of DOCUMENT READY*/
+    <section id = "section5" style="background-image: url('img/car1.jpg');">
+        <iframe width ="100%" height ="100%" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/sdLcjCkkhGw?autoplay=1&amp;loop=1&amp;playlist=e-Lp7kQWaNg&amp;controls=0&amp;showinfo=0&amp;rel=0"></iframe>
+    </section>
     
-</script>
-	
+    <!-- SCRIPTS -->
+    <!--Jquery-->
+        <!-- from google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- from Microsoft
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> -->
+    
+    <!-- json get crypto currency -->
+    <script type="text/javascript" src="js/cryptocurrency.js"></script>
+</body>
 
 </html>
 
